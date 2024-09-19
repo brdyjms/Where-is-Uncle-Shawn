@@ -1,0 +1,73 @@
+<div class="sections"></div>
+		
+	<div class="slide">
+	
+		<div class="top">
+		
+			<div class="FunFacts">
+				<h2 class="FactsTitle">Fun Facts</h2>
+				
+                <ul>
+                    <li>Tiny but Mighty: Goa is the smallest state in India, but it's one of the most popular vacation spots!</li>
+                    <li>Beach Heaven: Goa has over 30 beautiful beaches, where you can swim, surf, and even see turtles!</li>
+                    <li>Portuguese Influence: Goa was ruled by Portugal for over 450 years, so the buildings, food, and even some words are a mix of Indian and Portuguese culture.</li>
+                    <li>Churches and Temples: Goa has beautiful churches like Basilica of Bom Jesus and colorful Hindu temples too.</li>
+                    <li>Cashew Nuts: Goa is famous for its cashew nuts, and they even make a special drink from them called feni!</li>
+                    <li>Carnival Time: Goa has a big festival called Carnival where there are parades, music, and people wearing colorful costumes.</li>
+                    <li>Endangered Turtles: Olive Ridley sea turtles lay their eggs on Goa’s beaches.</li>
+                    <li>Spice Farms: Goa has huge spice farms where you can see how black pepper, cinnamon, and other spices grow.</li>
+                    <li>Crab Fishing: You can go on a fishing adventure in Goa’s rivers to catch crabs.</li>
+                    <li>Sunsets: Goa’s sunsets are amazing, especially from the beach. It’s like the whole sky turns orange and pink!</li>
+                    <li>Water Sports: You can try fun water sports like parasailing, jet skiing, and windsurfing.</li>
+                    <li>Night Markets: Goa has fun night markets where you can buy clothes, jewelry, and even taste new snacks.</li>
+                    <li>Spicy Food: Goan food is super tasty, especially if you like it spicy. Try prawn curry or fish in coconut sauce!</li>
+                </ul>
+			</div>
+
+			<div class="LocationDescription">
+				<h1 class="titleLocation">Goa, India</h1>
+				
+				<div class="SubTitle">
+						<div class="SubTitle1"></div>
+						<div class="SubTitle2"><p id="LocalTime24"></p><p class="LocalTimeText">Current Time</p></div>
+						<div class="SubTitle3"><p class="DateRange">September 2024 - <br>October 2024</p></div>
+				</div>
+				
+				<p class="Description">
+					Goa is like a giant playground by the sea! It’s one of India’s smallest states, but it's packed with fun. Imagine golden beaches that stretch for miles, where you can swim in the ocean, build sandcastles, or even try water sports like jet skiing and parasailing. Goa has some of the best beaches in the world!<br>
+                    But there’s more than just beaches! Goa is famous for its cool mix of Indian and Portuguese culture (Portugal ruled it for hundreds of years). That means you’ll see colorful churches and temples, and maybe even hear some Portuguese words! The food is delicious, too. You can taste seafood like prawn curry or yummy sweet treats called bebinca.<br>
+                    If you’re into animals, you might spot dolphins swimming in the sea or monkeys playing in the trees. Goa is also home to exciting festivals, like Carnival, where people wear costumes, dance, and have parades. It’s a place full of adventure, great food, and endless fun!
+				</p>
+			</div>
+			
+			<div class="FlagMap">
+				<a href="https://en.wikipedia.org/wiki/Flag_of_India" target="_blank">
+				<img src="images/Flags/India.jpg" alt="India Flag"></a>
+				<a href="https://www.google.com/maps/place/Goa,+India/@15.4226083,73.664965,9.25z/data=!4m6!3m5!1s0x3bbfba106336b741:0xeaf887ff62f34092!8m2!3d15.2993265!4d74.123996!16zL20vMDFjMW5t?entry=ttu&g_ep=EgoyMDI0MDkxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+				<img src="images/Maps/Goa.jpg" alt="Goa Map"></a>
+			</div>
+			
+		</div>
+
+		<div class="bottom">
+
+			<img src="images/BottomSlider/Goa 1.jpg">
+			<img src="images/BottomSlider/Goa 2.jpg">
+			<img src="images/BottomSlider/Goa 3.jpg">
+			<img src="images/BottomSlider/Goa 4.jpg">
+
+		</div>
+	</div>
+
+
+	<script>
+		var getLocalTime24 = function(){
+			document.getElementById("LocalTime24").innerHTML = new Date().toLocaleString("en-US",{timeZone:'Asia/Kolkata',timeStyle:'short',hourCycle:'h24'});
+		}
+		getLocalTime24();
+		setInterval(getLocalTime24,60000);
+
+	</script>
+
+
+</div>

@@ -1,0 +1,63 @@
+<div class="sections">
+		
+	<div class="slide">
+	
+		<div class="top">
+		
+			<div class="FunFacts">
+				<h2 class="FactsTitle">Fun Facts</h2>
+				
+				<ul>
+					<li>Items</li>
+					<li>Items</li>
+					<li>Items</li>
+					<li>Items</li>
+					<li>Items</li>
+				</ul>
+			</div>
+
+			<div class="LocationDescription">
+				<h1 class="titleLocation">City, Country</h1>
+				
+				<div class="SubTitle">
+						<div class="SubTitle1"></div>
+						<div class="SubTitle2"><p id="LocalTime24"></p><p class="LocalTimeText">Current Time</p></div>
+						<div class="SubTitle3"><p class="DateRange">September 2024 - <br>September 2024</p></div>
+				</div>
+				
+				<p class="Description">
+					Paste Description Here
+				</p>
+			</div>
+			
+			<div class="FlagMap">
+				<a href="https://en.wikipedia.org/wiki/Flag_of_India" target="_blank">
+				<img src="images/Flags/India.jpg" alt="India Flag"></a>
+				<a href="PasteLinkFromGoogleMapsHere" target="_blank">
+				<img src="images/Maps/Mumbai.jpg" alt="Mumbai Map"></a>
+			</div>
+			
+		</div>
+
+		<div class="bottom">
+
+			<img src="images/BottomSlider/Goa 1.jpg">
+			<img src="images/BottomSlider/Goa 2.jpg">
+			<img src="images/BottomSlider/Goa 3.jpg">
+			<img src="images/BottomSlider/Goa 4.jpg">
+
+		</div>
+	</div>
+
+
+	<script>
+		var getLocalTime24 = function(){
+			document.getElementById("LocalTime24").innerHTML = new Date().toLocaleString("en-US",{timeZone:'Asia/Kolkata',timeStyle:'short',hourCycle:'h24'});
+		}
+		getLocalTime24();
+		setInterval(getLocalTime24,60000);
+
+	</script>
+
+
+</div>
