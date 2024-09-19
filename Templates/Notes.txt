@@ -1,0 +1,21 @@
+Nice				France
+London				England
+Edinburgh			Scotland
+Loch Ness			Scotland
+Isle of Skye		Scotland
+Belfast				Northern Ireland
+Galway				Ireland
+Dublin				Ireland
+Reykjavík			Iceland
+Glasgow				Scotland
+Amsterdam			Netherlands
+Mumbai				India
+Goa					India
+Kerala				India
+
+
+
+
+
+
+

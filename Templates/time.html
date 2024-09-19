@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Time Display</title>
+</head>
+<body>
+
+	<div style="color: rgb(21, 0, 255); font-family: Arial, Helvetica, sans-serif; font-size: 75pt;">
+		<p id="indiaTime"></p>
+		<p id="londonTime" style="color: rgb(135, 22, 210); font-family: Arial, Helvetica, sans-serif; font-size: 75pt;"></p>
+	</div>
+
+
+
+	<script>
+		var getIndiaTime = function(){
+			document.getElementById("indiaTime").innerHTML = new Date().toLocaleString("en-US",{timeZone:'Asia/Kolkata',timeStyle:'short',hourCycle:'h24'});
+		}
+		getIndiaTime();
+		setInterval(getIndiaTime,60000);
+
+		var getLondonTime = function(){
+			document.getElementById("londonTime").innerHTML = new Date().toLocaleString("en-US",{timeZone:'Europe/London',timeStyle:'short',hourCycle:'h24'});
+		}
+		getLondonTime();
+		setInterval(getLondonTime,60000);
+
+	</script>
+
+
+
+
+</body>
+</html>

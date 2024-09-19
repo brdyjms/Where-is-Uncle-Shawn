@@ -1,0 +1,151 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.slide {
+	height: 95vh;
+	width: 95vw;
+
+}
+
+.top {
+	display: flex;
+}
+
+.bottom {
+	height: 25vh;
+	width: 95vw;
+	display: flex;
+	justify-content: space-around;
+}
+
+.bottom img {
+	max-height: 25vh;
+}
+
+
+
+
+
+.FunFacts {
+	height: 70vh;
+	width: 20vw;
+}
+
+.FactsTitle {
+	font-size: calc(1.5vw + 1.5vh);
+	margin: 0;
+}
+
+.FactsList {
+	font-size: calc(.75vw + .75vh);
+}
+
+
+
+
+
+.LocationDescription {
+	margin-left: 2.5vw;
+	margin-right: 2.5vw;
+	height: 70vh;
+	width: 55vw;
+	text-align: center;
+}
+
+
+
+.titleLocation {
+	font-size: calc(3vw + 3vh);
+	margin: 0;
+}
+
+.SubTitle {
+	display: flex;
+}
+
+.SubTitle1 {
+	width: 20vw;
+}
+
+.SubTitle2 {
+	width: 20vw;
+}
+
+.SubTitle3 {
+	width: 20vw;
+}
+
+
+
+#LocalTime24 {
+	font-size: calc(2vw + 2vh);
+	color: red;
+	margin: 0;
+}
+
+.LocalTimeText {
+	font-size: calc(.75vw + .75vh);
+	margin: 0;
+}
+
+.DateRange {
+	font-size: calc(.75vw + .75vh);
+	float: right;
+}
+
+.Description {
+	font-size: calc(.9vw + .9vh);
+	text-align: left;
+}
+
+
+
+
+
+.FlagMap {
+	height: 70vh;
+	width: 15vw;
+}
+
+.FlagMap img {
+	display: block;
+	max-width: 15vw;
+	margin-bottom: 2vh;
+	width: auto;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

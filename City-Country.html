@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Where is Uncle Shawn</title>
+	<link rel="stylesheet" href="style-page.css">
+	<link rel="stylesheet" href="style-slide.css">
+</head>
+
+
+
+<body>
+
+	<div class="container">
+
+
+
+		<div class="sections">
+		
+			<div class="slide">
+			
+				<div class="top">
+				
+					<div class="FunFacts">
+						<h2 class="FactsTitle">Fun Facts</h2>
+						
+						<ul class="FactsList">
+							<li>Population: 12,500,000</li>
+							<li>Language: Hindi</li>
+							<li>Time Zone: +5:30</li>
+							<li>Mumbai is the Financial, Commercial, and Entertainment capital of India</li>
+							<li>Antilia - World's most expensive house is in Mumbai</li>
+							<li>Bollywood makes over a 1000 movies every year, double what Hollywood makes</li>
+							<li>Tuk-Tuk is a 3 wheeled, open air taxi that is common transportation for locals.</li>
+							<li>etc</li>
+							<li>etc</li>
+						</ul>
+					</div>
+
+					<div class="LocationDescription">
+						<h1 class="titleLocation">Mumbai, India</h1>
+						
+						<div class="SubTitle">
+								<div class="SubTitle1"></div>
+								<div class="SubTitle2"><p id="LocalTime24"></p><p class="LocalTimeText">Current Time</p></div>
+								<div class="SubTitle3"><p class="DateRange">September 2024 - <br>September 2024</p></div>
+						</div>
+						
+						<p class="Description">Mumbai, India, is a huge, exciting city by the Arabian Sea, and it’s one of the most vibrant places in the world! It's known as the “City of Dreams” because many people move there to chase their dreams, especially in Bollywood, India's famous movie industry. In fact, Mumbai makes more movies each year than Hollywood! You can also visit the Gateway of India, a giant stone arch built to welcome kings and queens. Another fun fact: Mumbai is home to the famous dabbawalas, people who deliver homemade lunches to thousands of office workers using bicycles and trains without ever mixing up the orders!</p>
+					</div>
+					
+					<div class="FlagMap">
+						<a href="https://en.wikipedia.org/wiki/Flag_of_India" target="_blank">
+						<img src="Images/Flags/India.jpg" alt="India Flag"></a>
+						<a href="https://www.google.com/maps/place/Mumbai,+Maharashtra,+India/@19.0821772,72.7160334,11z/data=!3m1!4b1!4m6!3m5!1s0x3be7c6306644edc1:0x5da4ed8f8d648c69!8m2!3d19.0759837!4d72.8776559!16zL20vMDR2bXA?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+						<img src="Images/Maps/Mumbai.jpg" alt="Mumbai Map"></a>
+					</div>
+					
+				</div>
+
+				<div class="bottom">
+
+					<img src="Images/BottomSlider/Mumbai 1.jpg">
+					<img src="Images/BottomSlider/Mumbai 2.jpg">
+					<img src="Images/BottomSlider/Mumbai 3.jpg">
+					<img src="Images/BottomSlider/Mumbai 4.jpg">
+
+				</div>
+			</div>
+
+
+			<script>
+				var getLocalTime24 = function(){
+					document.getElementById("LocalTime24").innerHTML = new Date().toLocaleString("en-US",{timeZone:'Asia/Kolkata',timeStyle:'short',hourCycle:'h24'});
+				}
+				getLocalTime24();
+				setInterval(getLocalTime24,60000);
+
+			</script>
+
+
+		</div>
+
+
+
+		<div class="sections">
+			<p class="section-text">Glasgow, Scotland</p>
+		</div>
+		<div class="sections">
+			<p class="section-text">Reykjavík, Iceland</p>
+		</div>
+		<div class="sections">
+			<p class="section-text">Amsterdam, Netherlands</p>
+		</div>
+		<div class="sections">
+			<p class="section-text">Cardiff, Wales</p>
+		</div>
+		<div class="sections">
+			<p class="section-text">Dublin, Ireland</p>
+		</div>
+		<div class="sections">
+			<p class="section-text">Galway, Ireland</p>
+		</div>
+		<div class="sections">
+			<p class="section-text">Belfast, Northern Ireland</p>
+		</div>
+		<div class="sections">
+			<p class="section-text">Isle of Skye, Scotland</p>
+		</div>
+		<div class="sections">
+			<p class="section-text">Loch Ness, Scotland</p>
+		</div>
+		<div class="sections">
+			<p class="section-text">Edinburgh, Scotland</p>
+		</div>
+		<div class="sections">
+			<p class="section-text">London, England</p>
+		</div>
+		<div class="sections">
+			<p class="section-text">Nice, France</p>
+		</div>
+		<div class="sections">
+			<p class="section-text">City, Country</p>
+		</div>
+
+
+
+
+		<script src="script.js"></script>
+
+
+	</div>
+
+
+
+
+
+</body>
+</html>

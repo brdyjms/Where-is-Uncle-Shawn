@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.container {
+	height: 400vh; /* Set the height of the container to accommodate all sections */
+}
+
+.sections {
+	height: 100vh; /* Each section takes the full viewport height */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	background-image: linear-gradient(#ffffff, #b0e1fa);
+	border-bottom: 1px solid #ccc;
+}
+
+
